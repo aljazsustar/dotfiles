@@ -1,0 +1,8 @@
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/mailspring=mailspring.desktop
+
+[Added Associations]
+image/jpeg=qView.desktop;
+application/zip=org.gnome.Nautilus.desktop;
+inode/symlink=code-oss.desktop;

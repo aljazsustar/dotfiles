@@ -1,0 +1,5 @@
+2020/11/13-15:59:24.934 b266e Reusing MANIFEST /home/aljaz/.config/chromium/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/13-15:59:26.951 b266e Level-0 table #5: started
+2020/11/13-15:59:26.953 b266e Level-0 table #5: 421 bytes OK
+2020/11/13-15:59:26.955 b266e Delete type=0 #3
+2020/11/13-15:59:26.956 b266e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
