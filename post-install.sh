@@ -12,6 +12,18 @@ yay -S zoom teams discord  qutebrowser polybar dbeaver intellij-idea-ultimate-ed
 git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 
+git clone https://github.com/aljazsustar/dotfiles.git
+cp dotfiles/.config .config
+cp dotfiles/.bashrc ~
+cp dotfiles/.xinitrc ~
+
+mkdir -p ~/faks/"2.letnik"/APS1
+mkdir -p ~/faks/"2.letnik"/OPB
+mkdir -p ~/faks/"2.letnik"/ORS
+mkdir -p ~/faks/"2.letnik"/Sport
+mkdir -p ~/faks/"2.letnik"/TV
+mkdir -p ~/faks/"2.letnik"/IIRZ
+
 sudo systemctl enable mariadb
 sudo systemctl enable NetworkManager
 
