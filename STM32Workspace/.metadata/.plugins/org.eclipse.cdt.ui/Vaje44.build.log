@@ -1,0 +1,20 @@
+14:07:46 **** Incremental Build of configuration Debug for project Vaje44 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Vaje44.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/aljaz/faks/2.letnik/ORS/STM32Workspace/Vaje44/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Vaje44.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Vaje44.elf
+ 
+arm-none-eabi-objdump -h -S  Vaje44.elf  > "Vaje44.list"
+arm-none-eabi-objcopy  -O binary  Vaje44.elf  "Vaje44.bin"
+arm-none-eabi-size   Vaje44.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6892	     20	   1572	   8484	   2124	Vaje44.elf
+Finished building: default.size.stdout
+ 
+Finished building: Vaje44.bin
+ 
+Finished building: Vaje44.list
+ 
+
+14:07:46 Build Finished. 0 errors, 0 warnings. (took 424ms)
+
