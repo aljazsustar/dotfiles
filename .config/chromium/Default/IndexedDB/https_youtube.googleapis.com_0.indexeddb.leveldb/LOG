@@ -1,8 +1,0 @@
-2020/11/15-17:48:30.536 f2c6 Reusing MANIFEST /home/aljaz/.config/chromium/Default/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/15-17:48:30.536 f2c6 Recovering log #23
-2020/11/15-17:48:30.536 f2c6 Reusing old log /home/aljaz/.config/chromium/Default/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/000023.log 
-2020/11/15-17:48:32.584 f2c6 Level-0 table #27: started
-2020/11/15-17:48:32.584 f2c6 Level-0 table #27: 0 bytes OK
-2020/11/15-17:48:32.585 f2c6 Delete type=0 #23
-2020/11/15-17:48:32.585 f2c6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/15-17:48:32.585 f2c6 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

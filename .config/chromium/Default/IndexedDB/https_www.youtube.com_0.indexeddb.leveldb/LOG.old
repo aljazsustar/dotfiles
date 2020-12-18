@@ -1,8 +1,0 @@
-2020/11/13-16:47:25.956 b5bae Reusing MANIFEST /home/aljaz/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/13-16:47:25.956 b5bae Recovering log #13
-2020/11/13-16:47:25.956 b5bae Reusing old log /home/aljaz/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000013.log 
-2020/11/13-16:47:27.963 b5bae Level-0 table #17: started
-2020/11/13-16:47:27.963 b5bae Level-0 table #17: 0 bytes OK
-2020/11/13-16:47:27.972 b5bae Delete type=0 #13
-2020/11/13-16:47:27.973 b5bae Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/11/13-16:47:27.973 b5bae Manual compaction at level-1 from (begin) .. (end); will stop at (end)
